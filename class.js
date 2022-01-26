@@ -6,7 +6,6 @@ var Foo = class {
     }
   };
 
-<<<<<<< HEAD
 //CLASE B 
 var instance = new claseb();
 instance.bar(); // "Hello World!"
@@ -22,8 +21,8 @@ var bar = new claseb();
 bar.whoIsThere(); 
 NamedClaseb.name; 
 claseb.name; 
-=======
-  //CLASE C
+
+//CLASE C
 
 var Clasec = class NamedClasec {
     constructor() {}
@@ -35,4 +34,3 @@ var Clasec = class NamedClasec {
   bar.whoIsThere(); // 
   NamedClasec.name; // 
   Clasec.name; // 
->>>>>>> feature/feature-3
