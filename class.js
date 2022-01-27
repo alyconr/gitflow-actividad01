@@ -3,6 +3,11 @@ var Foo = class {
     constructor() {}
     bar() {
       return "Hello World!";
+      const str = `<p><strong><em>Lorem Ipsum </em></strong>is simply dummy text of the printing <em>and</em> typesetting industry.</p>`;
+
+      const doc = new DOMParser().parseFromString(str, 'text/html');
+      const arr = [...doc.body.childNodes]
+        .map(child => child.outerHTML || child.textContent);  
     }
   };
 
